@@ -10,7 +10,9 @@ This repository is the sample project for my articles.
 
 2. Run `npm install` to install all the project's dependencies.
 
-3. Run `npm run dev` to start the project.
+3. Rename `.env.example` to `.env` and edit your own configuration
+
+4. Run `npm run dev` to start the project.
 
 ## How to Run all Unit Test
 
