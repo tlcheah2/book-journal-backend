@@ -1,6 +1,10 @@
 const { mockRequest, mockResponse, mockNext } = require('../utils/expressMocker');
 const { createJournalSchema } = require('../../src/journal/journalSchemas');
 const { bodyValidator } = require('../../src/middlewares/requestValidator');
+const config = require('../../src/config');
+
+console.log('config', config.dbConfig);
+
 
 test('Return 400 when the create journal schema validation is failed', () => {
     const req = mockRequest({
